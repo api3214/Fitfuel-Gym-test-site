@@ -1,0 +1,261 @@
+@font-face {
+    src: url("./Sharkon\ Demo.otf");
+    font-family: 'sharkon';
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, ul {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(19, 17, 17);
+    color: white;
+    padding: 30px 20px;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#logo {
+    font-family: 'sharkon';
+    font-size: 20px;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul a {
+    color: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    text-underline-offset: 4px;
+}
+
+.hero {
+    background-color: red;
+    min-height: 300px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    color: whitesmoke;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                      url("https://cdn.prod.website-files.com/63d5cc6761dbe779bd7fdbc4/63d86adcef8e496b9d4fb375_5d88256e9d7733393ecca010_fitness-motivation-quotes.jpeg");
+    background-size: cover;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+
+.hero h2 {
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+}
+
+.hero button {
+    background-color: brown;
+    color: whitesmoke;
+    border: 2px white solid;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.hero button:hover {
+    box-shadow: 0 0 8px whitesmoke;
+}
+
+.features {
+    padding: 40px 20px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.features-card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-cards {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: lightcyan;
+    padding: 20px;
+    max-width: 200px;
+}
+
+.feature-cards:hover {
+    box-shadow: 0 0 6px black;
+}
+
+.reviews {
+    background-color: #f5f7fa;
+    margin: 0px;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.reviews h2 {
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.review-card-wrapper {
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-cards {
+    background-color: #ffffff;
+    border: 2px solid #e5e7eb;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 180px;
+}
+
+.review-cards h4 {
+    color: #111827;
+}
+
+.review-cards p {
+    color: #4b5563;
+}
+
+.review-cards:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.pricing {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.pricing h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.pricing-card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pricing-cards {
+    background: white;
+    border: 2px solid #dbeafe;
+    padding: 20px 30px;
+    max-width: 250px;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.12);
+}
+
+.pricing-cards:hover {
+    box-shadow: 0 20px 35px rgba(23, 71, 175, 0.15);
+}
+
+.pricing-cards h3 {
+    color: #1e3a8a;
+}
+
+.pricing-cards p {
+    color: #0f172a;
+}
+
+.pricing-cards ul {
+    color: #334155;
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.pricing-cards button {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 50px;
+}
+
+.pricing-cards button:hover {
+    background: #1d4ed8;
+}
+
+.footer {
+    background-color: #0f172a;
+    color: #cbd5f5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer hr {
+    height: 1px;
+    background-color: rgba(255,255,255,0.1);
+    margin: 25px 0;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer h4 {
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+address a {
+    text-decoration: none;
+    color: #93c5fd;
+}
+
+address a:hover {
+    color: #bfdbfe;
+}
+
